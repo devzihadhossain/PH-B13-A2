@@ -84,7 +84,21 @@ header button{
     font-weight: 600;
 }
 
+header button i{
+    animation: headerbtn 3s ease-in-out infinite;
+}
 
+@keyframes headerbtn {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(6px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 
 
 
