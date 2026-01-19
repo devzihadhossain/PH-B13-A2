@@ -241,10 +241,13 @@ header button i{
     gap: 20px;
 }
 
-
-.featured-card .featured-img img{
+.featured-card .featured-img iframe{
     width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
     display: block;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
 }
 
 .featured-card .featured-card-content{
@@ -320,8 +323,39 @@ header button i{
 /* Footer Area */
 footer{
     background-image: url(./assets/footer-bg.png);
-    height: 200px;
-    
+    height: 300px;
+    position: relative;
     background-position: center center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    position: absolute;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-logo{
+    font-size: 48px;
+    color: white;
+}
+.footer-logo span{
+    background: linear-gradient(3.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-icon-group{
+    gap: 30px;
+}
+
+.footer-icon-group a{
+    color: white;
+    gap: 10px;
+}
+
+.footer-content p{
+    color: white;
 }
