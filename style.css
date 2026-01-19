@@ -14,7 +14,6 @@ body{
 
 
 /* Global Styles */
-
 a{
     text-decoration: none;
 }
@@ -24,7 +23,6 @@ ul li{
 }
 
 /* Global Classes */
-
 .container{
     width: 1140px;
     margin: 0 auto;
@@ -43,6 +41,7 @@ ul li{
 }
 
 .btn{
+    cursor: pointer;
     color: white;
     border-radius: 20px;
     border: none;
@@ -51,13 +50,7 @@ ul li{
     background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
 }
 
-
-
-
-
-
 /* Header Area */
-
 header{
     padding: 20px 0;
 }
@@ -101,11 +94,7 @@ header button i{
 }
 
 
-
-
-
 /* Banner Area */
-
 .banner-area{
     position: relative;
     height: 700px;
@@ -170,10 +159,6 @@ header button i{
 }
 
 
-
-
-
-
 /* About Area */
 .about-content{
     max-width: 800px;
@@ -216,15 +201,7 @@ header button i{
 }
 
 
-
-
-
-
-
-
-
 /* Featured Area */
-
 .featured-area{
     padding: 100px 0;
 }
@@ -271,7 +248,6 @@ header button i{
 
 
 /* Host Area */
-
 .host-area{
     padding-bottom: 80px;
 }
