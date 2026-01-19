@@ -63,6 +63,13 @@ p{
 }
 
 /* Header Area */
+
+.header-wrapper{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgba(26, 11, 46, 1);
+}
 header{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -447,6 +454,10 @@ footer{
         gap: 30px 20px;
     }
 
+    .counter-area div h3{
+        font-size: 40px;
+    }
+
     .info-title,
     .about-content h2,
     .featured-title,
@@ -468,12 +479,15 @@ footer{
     .info-grid-card{
         grid-column: span 1;
         grid-row: span 1;
+        padding: 30px;
     }
+
 
     .featured-card-wrapper{
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
     }
+
 
     .host-card{
         flex-direction: column;
