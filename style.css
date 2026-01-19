@@ -22,6 +22,11 @@ ul li{
     list-style: none;
 }
 
+p{
+    line-height: 1.8rem !important;
+    color: rgb(211 194 194) !important;
+}
+
 /* Global Classes */
 .container{
     width: 1140px;
@@ -156,6 +161,7 @@ header button i{
     gap: 6px;
     padding: 12px 16px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 
@@ -200,7 +206,47 @@ header button i{
     color: white;
 }
 
+/* Info Area */
+.info-wrapper{
+    background-color: #230E3D;
+    padding: 80px 0;
+}
+.info-title{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 40px;
+}
 
+.info-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.col-2{
+    grid-column: span 2;
+}
+.row-2{
+    grid-row: span 2;
+}
+.info-grid-card{
+    background-color: #2A0F4D;
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+.info-grid-card h3{
+    font-size: 1.5rem;
+}
+.info-grid-card img{
+    width: 60px;
+    padding-bottom: 10px;
+}
 /* Featured Area */
 .featured-area{
     padding: 100px 0;
