@@ -265,3 +265,63 @@ header button i{
     gap: 6px;
     color: #00FF88;
 }
+
+
+/* Host Area */
+
+.host-area{
+    padding-bottom: 80px;
+}
+.host-title{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.host-card{
+    background-color: #250E44;
+    border-radius: 40px;
+    padding: 40px;
+    gap: 30px;
+}
+
+.host-content{
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.host-content h3{
+    font-size: 2rem;
+}
+
+.host-social-group{
+    gap: 8px;
+    padding-top: 6px;
+}
+
+.host-social-group a{
+    border: 1px solid rgba(83, 60, 114, 1);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.host-social-group a i{
+    background: linear-gradient(3.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Footer Area */
+footer{
+    background-image: url(./assets/footer-bg.png);
+    height: 200px;
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+}
