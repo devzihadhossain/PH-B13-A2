@@ -122,7 +122,6 @@ header .sub-btn i{
     background-image: url(./assets/hero-bg.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -459,7 +458,8 @@ footer{
 
     .banner-area{
         margin-bottom: 80px;
-        height: 470px;
+        height: 470px;        
+        background-size: contain;
     }
 
     .banner-content{
