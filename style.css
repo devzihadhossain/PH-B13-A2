@@ -154,6 +154,8 @@ header .sub-btn i{
     right: 40px;
     background-color: #00FF88;
     animation: mypulse 1s infinite ease-in-out alternate;
+    border-radius: 1000px;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
 }
 
 
@@ -440,9 +442,24 @@ footer{
         border-bottom: 1px solid rgba(65, 37, 103, 1);
     }
 
+    .mic-bg{
+        width: 250px;
+        height: 250px;
+        background-size: contain;
+        margin-top: 120px;
+    }
+    .mic-bg img{
+        width: 80px;
+    }
+
     .main-menu,
     .sub-btn{
         display: none;
+    }
+
+    .banner-area{
+        margin-bottom: 80px;
+        height: 470px;
     }
 
     .banner-content{
